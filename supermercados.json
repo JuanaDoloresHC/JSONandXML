@@ -1,0 +1,271 @@
+{
+    "supermercados": [
+        {
+            "nombre": "HiperArucas",
+            "telefonoDeContacto": 934432435,
+            "direccion": "Calle Fortaleza de Arucas 24",
+            "geolocalizacion": "75°24'64.8 N 3°78'24.4 W",
+            "catalogoDeProductos": [
+                {
+                    "ofertas": [
+                        {
+                            "seccion": "frutería",
+                            "productos": [
+                                {
+                                    "producto": "manzana",
+                                    "periodoDeVigencia": "04/06/2022 - 10/06/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 5,
+                                    "precio": 0.6,
+                                    "adquirido": true
+                                },
+                                {
+                                    "producto": "pera",
+                                    "periodoDeVigencia": "01/05/2022 - 07/05/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 2,
+                                    "precio": 0.8,
+                                    "adquirido": false
+                                }
+                            ]
+                        },
+                        {
+                            "seccion": "carnicería",
+                            "productos": [
+                                {
+                                    "producto": "pechuga de pollo",
+                                    "periodoDeVigencia": "10/09/2022 - 12/09/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 2,
+                                    "precio": 4.5,
+                                    "adquirido": false
+                                },
+                                {
+                                    "producto": "chuleta de cerdo",
+                                    "periodoDeVigencia": "01/05/2022 - 09/05/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 1,
+                                    "precio": 7.5,
+                                    "adquirido": false
+                                },
+                                {
+                                    "producto": "lomo adobado",
+                                    "periodoDeVigencia": "15/06/2022 - 21/06/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 4,
+                                    "precio": 5.9,
+                                    "adquirido": true
+                                }
+                            ]        
+                        }
+                    ]
+                },
+                {
+                    "productosHabitualesSinOferta": [
+                        {
+                            "seccion": "verdulería",
+                            "productos": [
+                                {
+                                    "producto": "cebolla",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 1,
+                                    "precio": 1,
+                                    "adquirido": true
+                                },
+                                {
+                                    "producto": "lechuga",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 2,
+                                    "precio": 0.99,
+                                    "adquirido": false
+                                }
+                            ]
+                        },
+                        {
+                            "seccion": "mascotas",
+                            "productos": [
+                                {
+                                    "producto": "saco de pienso",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 1,
+                                    "precio": 7.5,
+                                    "adquirido": false
+                                },
+                                {
+                                    "producto": "golosinas",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 2,
+                                    "precio": 0.99,
+                                    "adquirido": false
+                                }
+                            ]        
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "HiperLanzarote",
+            "telefonoDeContacto": 924243233,
+            "direccion": "Calle Lanzarote 04",
+            "geolocalizacion": "15°34'78.9 N 1°54'23.2 W",
+            "catalogoDeProductos": [
+                {
+                    "ofertas": [
+                        {
+                            "seccion": "verdulería",
+                            "productos": [
+                                {
+                                    "producto": "ajo",
+                                    "periodoDeVigencia": "01/06/2022 - 04/06/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 1,
+                                    "precio": 0.99,
+                                    "adquirido": true
+                                }
+                            ]
+                        },
+                        {
+                            "seccion": "higiene",
+                            "productos": [
+                                {
+                                    "producto": "champú",
+                                    "periodoDeVigencia": "01/09/2022 - 03/09/2022",
+                                    "unidadDeMedida": "litros",    
+                                    "unidades": 4,
+                                    "precio": 0.99,
+                                    "adquirido": true
+                                },
+                                {
+                                    "producto": "gel",
+                                    "periodoDeVigencia": "02/05/2022 - 03/05/2022",
+                                    "unidadDeMedida": "litros",
+                                    "unidades": 3,
+                                    "precio": 0.99,
+                                    "adquirido": false
+                                },
+                                {
+                                    "producto": "pañuelillos",
+                                    "periodoDeVigencia": "07/06/2022 - 10/06/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 1,
+                                    "precio": 0.99,
+                                    "adquirido": true
+                                }
+                            ]        
+                        }
+                    ]
+                },
+                {
+                    "productosHabitualesSinOferta": [
+                        {
+                            "seccion": "limpieza",
+                            "productos": [
+                                {
+                                    "producto": "suavizante",
+                                    "unidadDeMedida": "litros",
+                                    "unidades": 2,
+                                    "precio": 2.9,
+                                    "adquirido": true
+                                },
+                                {
+                                    "producto": "detergente",
+                                    "unidades": 1,
+                                    "precio": 4.1,
+                                    "adquirido": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "HiperCanarias",
+            "telefonoDeContacto": 928342323,
+            "direccion": "Calle Canarias 07",
+            "geolocalizacion": "23°11'45.4 N 3°34'88.6 W",
+            "catalogoDeProductos": [
+                {
+                    "ofertas": [
+                        {
+                            "seccion": "congelados",
+                            "productos": [
+                                {
+                                    "producto": "pizza",
+                                    "periodoDeVigencia": "31/06/2022 - 02/07/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 3,
+                                    "precio": 2.5,
+                                    "adquirido": true
+                                },
+                                {
+                                    "producto": "gamba",
+                                    "periodoDeVigencia": "21/06/2022 - 24/07/2022",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 3,
+                                    "precio": 7.89,
+                                    "adquirido": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "productosHabitualesSinOferta": [
+                        {
+                            "seccion": "bebidas",
+                            "productos": [
+                                {
+                                    "producto": "refresco",
+                                    "unidadDeMedida": "litros",
+                                    "unidades": 2,
+                                    "precio": 0.99,
+                                    "adquirido": false
+                                },
+                                {
+                                    "producto": "agua",
+                                    "unidadDeMedida": "litros",
+                                    "unidades": 4,
+                                    "precio": 0.99,
+                                    "adquirido": true
+                                }
+                            ]
+                        },
+                        {
+                            "seccion": "alimentación",
+                            "productos": [
+                                {
+                                    "producto": "arroz",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 2,
+                                    "precio": 1.3,
+                                    "adquirido": true
+                                },
+                                {
+                                    "producto": "pasta",
+                                    "unidadDeMedida": "kilogramos",
+                                    "unidades": 1,
+                                    "precio": 0.99,
+                                    "adquirido": true
+                                }
+                            ]
+                        },
+                        {
+                            "seccion": "bodega",
+                            "productos": [
+                                {
+                                    "producto": "vino blanco",
+                                    "unidadDeMedida": "litros",
+                                    "unidades": 1,
+                                    "precio": 2,
+                                    "adquirido": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

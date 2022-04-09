@@ -1,0 +1,18 @@
+<!ELEMENT supermercados (supermercado+)>
+<!ELEMENT supermercado (nombre, telefonoDeContacto, direccion, geolocalizacion, catalagoDeProductos)>
+<!ATTLIST supermercado zona CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefonoDeContacto (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT geolocalizacion (#PCDATA)>
+<!ELEMENT catalagoDeProductos (ofertas, productosHabitualesSinOferta)>
+<!ELEMENT ofertas (seccion+)>
+<!ELEMENT seccion (nombre, productos)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre, periodoDeVigencia, unidadDeMedida, unidades, precio, adquirido)>
+<!ELEMENT periodoDeVigencia (#PCDATA)>
+<!ELEMENT unidadDeMedida (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT adquirido (#PCDATA)>
+<!ELEMENT productosHabitualesSinOferta (seccion+)>

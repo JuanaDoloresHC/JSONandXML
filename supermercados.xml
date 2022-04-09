@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supermercados SYSTEM "supermercados.dtd">
+
+    <supermercados>
+        <supermercado zona="Arucas">
+            <nombre>HiperArucas</nombre>
+            <telefonoDeContacto>934432435</telefonoDeContacto>
+            <direccion>Calle Fortaleza de Arucas 24</direccion>
+            <geolocalizacion>75°24'64.8 N 3°78'24.4 W</geolocalizacion>
+            <catalagoDeProductos>
+                <ofertas>
+                    <seccion>
+                        <nombre>frutería</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>manzana</nombre>
+                                <periodoDeVigencia>04/06/2022 - 10/06/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>5</unidades>
+                                <precio>0.6</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>pera</nombre>
+                                <periodoDeVigencia>01/05/2022 - 07/05/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>0.8</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+
+                    <seccion>
+                        <nombre>carnicería</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>pechuga de pollo</nombre>
+                                <periodoDeVigencia>10/09/2022 - 12/09/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>4.5</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>chuleta de cerdo</nombre>
+                                <periodoDeVigencia>01/05/2022 - 09/05/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>7.5</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>lomo adobado</nombre>
+                                <periodoDeVigencia>15/06/2022 - 21/06/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>4</unidades>
+                                <precio>5.9</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+                </ofertas>
+
+                <productosHabitualesSinOferta>
+                    <seccion>
+                        <nombre>verdulería</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>cebolla</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>1</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>lechuga</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+
+                    <seccion>
+                        <nombre>mascotas</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>saco de pienso</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>7.5</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>golosinas</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+                </productosHabitualesSinOferta>
+            </catalagoDeProductos>
+        </supermercado>
+
+        <supermercado zona="Lanzarote">
+            <nombre>HiperLanzarote</nombre>
+            <telefonoDeContacto>924243233</telefonoDeContacto>
+            <direccion>Calle Lanzarote 04</direccion>
+            <geolocalizacion>15°34'78.9 N 1°54'23.2 W</geolocalizacion>
+            <catalagoDeProductos>
+                <ofertas>
+                    <seccion>
+                        <nombre>verdulería</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>ajo</nombre>
+                                <periodoDeVigencia>01/06/2022 - 04/06/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+   
+                    <seccion>
+                        <nombre>higiene</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>champú</nombre>
+                                <periodoDeVigencia>01/09/2022 - 03/09/2022</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>4</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>gel</nombre>
+                                <periodoDeVigencia>02/05/2022 - 03/05/2022</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>3</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>pañuelillos</nombre>
+                                <periodoDeVigencia>07/06/2022 - 10/06/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+                </ofertas>
+
+                <productosHabitualesSinOferta>
+                    <seccion>
+                        <nombre>limpieza</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>suavizante</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>2.9</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>detergente</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>4.1</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+                </productosHabitualesSinOferta>
+            </catalagoDeProductos>
+        </supermercado>
+
+        <supermercado zona="Canarias">
+            <nombre>HiperCanarias</nombre>
+            <telefonoDeContacto>928342323</telefonoDeContacto>
+            <direccion>Calle Canarias 07</direccion>
+            <geolocalizacion>23°11'45.4 N 3°34'88.6 W</geolocalizacion>
+            <catalagoDeProductos>
+                <ofertas>
+                    <seccion>
+                        <nombre>congelados</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>pizza</nombre>
+                                <periodoDeVigencia>31/06/2022 - 02/07/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>3</unidades>
+                                <precio>2.5</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>gamba</nombre>
+                                <periodoDeVigencia>21/06/2022 - 24/07/2022</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>3</unidades>
+                                <precio>7.89</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+                </ofertas>
+
+                <productosHabitualesSinOferta>
+                    <seccion>
+                        <nombre>bebidas</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>refresco</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>false</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>agua</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>4</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+
+                    <seccion>
+                        <nombre>alimentación</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>arroz</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>2</unidades>
+                                <precio>1.3</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+
+                            <producto>
+                                <nombre>pasta</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>kilogramos</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>0.99</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+
+                    <seccion>
+                        <nombre>bodega</nombre>
+                        <productos>
+                            <producto>
+                                <nombre>vino blanco</nombre>
+                                <periodoDeVigencia>ninguno</periodoDeVigencia>
+                                <unidadDeMedida>litros</unidadDeMedida>
+                                <unidades>1</unidades>
+                                <precio>2</precio>
+                                <adquirido>true</adquirido>
+                            </producto>
+                        </productos>
+                    </seccion>
+                </productosHabitualesSinOferta>
+            </catalagoDeProductos>
+        </supermercado>
+    </supermercados>
